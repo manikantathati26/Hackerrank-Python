@@ -1,0 +1,10 @@
+def average(array):
+    s1=sum(set(arr))
+    s2=len(set(arr))
+    return s1/s2
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
